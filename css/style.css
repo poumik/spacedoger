@@ -1,0 +1,97 @@
+canvas {
+    border: 2px solid #00FFFF;
+    background: #000033;
+    box-shadow: 0 0 10px #00FFFF;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #000011;
+    overflow: hidden;
+}
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #00FFFF;
+    font-family: 'Orbitron', Arial, sans-serif;
+    font-size: 24px;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00FFFF;
+    transition: transform 0.2s ease;
+}
+#score.updated {
+    transform: scale(1.1);
+}
+#highScores {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #00FFFF;
+    font-family: 'Orbitron', Arial, sans-serif;
+    font-size: 18px;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00FFFF;
+    text-align: right;
+}
+#pauseButton {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: #00FFFF;
+    font-family: 'Orbitron', Arial, sans-serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00FFFF;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+#pauseButton:hover {
+    background: rgba(0, 255, 255, 0.2);
+}
+#startButton {
+    position: absolute;
+    color: #00FFFF;
+    font-family: 'Orbitron', Arial, sans-serif;
+    font-size: 24px;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00FFFF;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+#startButton:hover {
+    background: rgba(0, 255, 255, 0.2);
+}
+#soundButton {
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    color: #00FFFF;
+    font-family: 'Orbitron', Arial, sans-serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00FFFF;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+#soundButton:hover {
+    background: rgba(0, 255, 255, 0.2);
+}
